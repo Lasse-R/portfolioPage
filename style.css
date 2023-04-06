@@ -103,7 +103,6 @@ span {
 
 .home-img img {
     width: 35vw;
-    max-width: 450px;
     border-radius: 50%;
     box-shadow: 0 0 1rem var(--main-color);
     animation: floatingImage 4s ease-in-out infinite;

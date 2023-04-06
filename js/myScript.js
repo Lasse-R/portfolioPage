@@ -1,6 +1,6 @@
 /* animated text on home page */
 var typed = new Typed(".multiple-text", {
-    strings: ["Computer Scientist", "Software Developer", "Backend Developer", "Frontend Developer", "PC Hardware Buff"],
+    strings: ["Computer Scientist", "Software Engineer", "Backend Developer", "Frontend Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
