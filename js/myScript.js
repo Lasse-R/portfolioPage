@@ -1,3 +1,17 @@
+/* download CV functionality */
+const downloadBtn = document.getElementById('cv-button');
+downloadBtn.addEventListener('click', downloadPDF);
+
+function downloadPDF() {
+    const cvPath = "../files/CV.pdf";
+    const link = document.createElement('a');
+    link.href = cvPath;
+    link.download = "CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
 /* animated text on home page */
 var typed = new Typed(".multiple-text", {
     strings: ["Computer Scientist", "Software Engineer", "Backend Developer", "Frontend Developer"],

@@ -18,6 +18,16 @@
     --main-color: rgb(204, 121, 20);
 }
 
+.wip{
+    padding-top: 7rem;
+    text-align: center;
+    background-color: rgb(158, 3, 3);
+}
+
+.wip p {
+    font-size: 1.6rem;
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
